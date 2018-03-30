@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #df5e5e !important;
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+.form-inline {
+  position: fixed;
+  right: 2%;
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+  height: 120vh;
+  margin: 0;
+  padding-top: 0;
+  position: relative;
+  text-align: center;
+  top: 10vh;
+  width: 100vw;
+}
+
+.jumbotron p span,
+.jumbotron ul li span {
+  color: #df5e5e;
+}
+
+.movie-poster {
+  left: 50%;
+  position: absolute;
+	top: 25%;
+	transform: translate(-50%, -25%);
+}
+
+.jumbotron ul {
+  left: 50%;
+  position: absolute;
+  text-align: left;
+	top: 67%;
+	transform: translate(-50%, -67%);
+}
+
+.movie-plot {
+  left: 50%;
+  position: absolute;
+  top: 75%;
+  transform: translate(-50%, -75%);
+}
